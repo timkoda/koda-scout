@@ -1,4 +1,4 @@
-# Client Brief Extractor — A Claude Code Skill for Claude Design
+# Koda Scout — A Claude Code Skill for Claude Design
 
 A Claude Code skill that turns your Gmail inbox into an automated client intake pipeline for Claude Design.
 
@@ -29,7 +29,7 @@ Intake (this skill) → Design (Claude Design) → Ship (Claude Code)
 ### Option 1 — User-scope (available in every Claude Code project)
 
 ```bash
-git clone https://github.com/timkoda/client-brief-extractor.git ~/.claude/skills/client-brief-extractor
+git clone https://github.com/timkoda/koda-scout.git ~/.claude/skills/koda-scout
 ```
 
 Restart Claude Code. The skill loads automatically whenever you mention client briefs, email intake, or Claude Design input.
@@ -37,11 +37,11 @@ Restart Claude Code. The skill loads automatically whenever you mention client b
 ### Option 2 — Manual
 
 ```bash
-mkdir -p ~/.claude/skills/client-brief-extractor/references
-curl -fsSL https://raw.githubusercontent.com/timkoda/client-brief-extractor/main/SKILL.md \
-  -o ~/.claude/skills/client-brief-extractor/SKILL.md
-curl -fsSL https://raw.githubusercontent.com/timkoda/client-brief-extractor/main/references/brief-template.md \
-  -o ~/.claude/skills/client-brief-extractor/references/brief-template.md
+mkdir -p ~/.claude/skills/koda-scout/references
+curl -fsSL https://raw.githubusercontent.com/timkoda/koda-scout/main/SKILL.md \
+  -o ~/.claude/skills/koda-scout/SKILL.md
+curl -fsSL https://raw.githubusercontent.com/timkoda/koda-scout/main/references/brief-template.md \
+  -o ~/.claude/skills/koda-scout/references/brief-template.md
 ```
 
 ---

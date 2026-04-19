@@ -1,11 +1,13 @@
 ---
-name: client-brief-extractor
-description: "Client Brief Extractor for Claude Design: Browse your Gmail inbox, detect incoming client briefs, and extract the full design brief (brand system, references, constraints, style guides, deliverables) into a structured output ready to paste into Claude Design. Uses the Gmail MCP to read emails + attachments. Use this skill whenever a solo AI studio receives a new client email and needs a design brief formatted for Claude Design. Triggers on: 'extract brief', 'client brief', 'new client email', 'pull brief from inbox', 'design brief from email', 'parse client', 'brand brief extract', 'gmail brief', 'claude design brief', 'client intake'."
+name: koda-scout
+description: "Koda Scout — the AI intake scout for Claude Design. Browses your Gmail inbox, detects incoming client briefs, and extracts the full design brief (brand system, references, constraints, style guides, deliverables) into a structured output ready to paste into Claude Design. Uses the Gmail MCP to read emails + attachments. Use this skill whenever a solo AI studio receives a new client email and needs a design brief formatted for Claude Design. Triggers on: 'koda scout', 'scout my inbox', 'extract brief', 'client brief', 'new client email', 'pull brief from inbox', 'design brief from email', 'parse client', 'brand brief extract', 'gmail brief', 'claude design brief', 'client intake'."
 ---
 
-# Client Brief Extractor — For Claude Design Solo Studios
+# Koda Scout — AI Intake Scout for Claude Design
 
-This skill turns your Gmail inbox into an automated client intake pipeline. Every client email becomes a structured design brief, ready to paste into Claude Design with one click.
+Koda Scout turns your Gmail inbox into an automated client intake pipeline for Claude Design. Every client email becomes a structured design brief, ready to paste into Claude Design with one click.
+
+Built for solo AI studios, freelancers, and agencies running client work on the Claude stack.
 
 ---
 
@@ -20,7 +22,7 @@ This skill turns your Gmail inbox into an automated client intake pipeline. Ever
 
 ## The Workflow
 
-### Step 1 — Browse the inbox
+### Step 1 — Scout the inbox
 
 Use the Gmail MCP to list recent unread messages, or search by sender / subject.
 
